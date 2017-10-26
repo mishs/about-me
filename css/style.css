@@ -4,3 +4,52 @@ h1 {
       text-shadow: 3px 2px 3px grey ;
       color : teal ;
 }
+.navigator {
+      overflow: hidden ;
+      background-color: grey ;
+      width : 100%;
+      text-align : center ;
+      margin: 0 auto;
+}
+.navigator a {
+
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+
+}
+.navigator a:hover {
+    background-color: #ddd;
+    color: teal;
+}
+.navigator a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.primary {
+    width : 40% ;
+}
+.primary #introduction{
+    width: 100%;
+}
+.primary #background {
+    width: 100% ;
+
+}
+.primary #academic {
+    width : 100% ;
+}
+.image{
+        width : 20% ;
+}
+.image img {
+    width : 100% ;
+    border-radius: 25% ;
+}
+.container {
+      width : 100% ; 
+}
