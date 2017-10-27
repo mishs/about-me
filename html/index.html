@@ -4,7 +4,18 @@
     <meta charset="utf-8">
     <title>My first page</title>
     <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
   </head>
+  <style>
+      body{
+        font-family: 'Gloria Hallelujah', cursive;
+  }
+  fieldset legend {
+          text-shadow: 3px 2px 3px grey ;
+          font-weight: bolder;
+          font-size: 30px ;
+  }
+  </style>
   <body>
       <h1>Twice the Lazy programmer</h1>
       <div class="navigator">
@@ -14,9 +25,10 @@
           <a href="#hobbies">Hobbies</a>
           <a href="#favourite">Favourites</a>
           <a href="#motivations">Motivations</a>
-          <a href="#contact">Contact</a>
+          <a href="https://www.facebook.com/njabulo.magagula.33" target="_blank">Contact</a>
 
       </div>
+      <fieldset> <legend align="center" style="color:teal;">Story of my life</legend>
       <div class="container">
             <div class="motivations">
                  <h3 id="heading" >My Daily motivations</h3>
@@ -32,6 +44,9 @@
                       <br><b>Unknown</b>
                   </p>
             </div>
+            <!-- <div class="image">
+                  <img src="../images/image2.jpg" alt="Njabulo's image" >
+            </div> -->
             <div class="goals">
                 <h3 id="heading">My Future goals</h3>
                 <p>
@@ -45,9 +60,7 @@
                     </ul>
                 </p>
             </div>
-            <!-- <div class="image">
-                  <img src="../images/image2.jpg" alt="Njabulo's image">
-            </div> -->
+
             <div class="daily">
                   <h3 id="heading">Daily life</h3>
                   <p>
@@ -78,5 +91,6 @@
                   </p>
             </div>
       </div>
+      </fieldset>
   </body>
 </html>

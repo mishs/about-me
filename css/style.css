@@ -35,26 +35,27 @@ h1 {
   width : 100% ;
 }
 .container .motivations {
-      margin : 0 ;
-      width : 40% ;
-      float: right ;
+      width : 45% ;
+      float : right ;
 }
 .container .goals {
-      width : 40% ;
+      width : 45% ;
 }
 .container .daily {
-      margin-top: 0 ;
-      width : 25% ;
-      margin-right:40% ;
+      width : 45% ;
 }
 /*.container .image {
 
-      margin-left : 40% ;
-      margin-right: 40% ;
-      width : 10% ;
-      border-radius: 25% ;
-
+      float : right ;
+      margin-left: 40% ;
+      width : 20% ;
 }*/
+.container .daily {
+      width : 100% ;
+}
+.container .extra-info {
+      width : 100% ;
+}
 .container #heading {
     color : teal ;
     text-shadow: 3px 2px 3px grey ;
