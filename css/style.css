@@ -10,6 +10,7 @@ h1 {
       width : 100%;
       text-align : center ;
       margin: 0 auto;
+      padding-right: 2px ;
 }
 .navigator a {
 
@@ -30,26 +31,32 @@ h1 {
     background-color: #4CAF50;
     color: white;
 }
-.primary {
-    width : 40% ;
-}
-.primary #introduction{
-    width: 100%;
-}
-.primary #background {
-    width: 100% ;
-
-}
-.primary #academic {
-    width : 100% ;
-}
-.image{
-        width : 20% ;
-}
-.image img {
-    width : 100% ;
-    border-radius: 25% ;
-}
 .container {
-      width : 100% ; 
+  width : 100% ;
+}
+.container .motivations {
+      margin : 0 ;
+      width : 40% ;
+      float: right ;
+}
+.container .goals {
+      width : 40% ;
+}
+.container .daily {
+      margin-top: 0 ;
+      width : 25% ;
+      margin-right:40% ;
+}
+/*.container .image {
+
+      margin-left : 40% ;
+      margin-right: 40% ;
+      width : 10% ;
+      border-radius: 25% ;
+
+}*/
+.container #heading {
+    color : teal ;
+    text-shadow: 3px 2px 3px grey ;
+
 }
